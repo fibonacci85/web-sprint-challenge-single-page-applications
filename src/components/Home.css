@@ -1,0 +1,49 @@
+
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* align-content: center; */
+}
+
+.heroImage{
+    background-color: black;
+}
+
+.home{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    color:white;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+h2{
+    color:tomato;
+}
+
+button{
+
+    background-color: tomato;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+img {
+    border-radius: 500px;
+}
+

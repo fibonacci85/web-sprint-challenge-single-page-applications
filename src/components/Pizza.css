@@ -1,0 +1,42 @@
+
+
+
+.alltheform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: lightgreen;
+}
+
+.topForm{
+    background-color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.formDiv{
+    background-color: green;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+pre{
+    font-size: 30px;
+}
+
+form {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
