@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import formSchema from '../validation/formSchema';
 import * as yup from 'yup';
 import axios from 'axios'
+import './Pizza.css'
 
 
 
@@ -102,13 +103,15 @@ const inputChange = event => {
   };
   return (
       // THE FORM
-      <header>
-    <>
+      
+    <div className='alltheform'>
+        <div className='topForm'>
         <h1>ORDER YOUR PIZZA</h1>
         <p>Fill out the form below</p>
+        </div>
 
       <br/>
-
+        <div className="formDiv">
       <form onSubmit={formSubmit}>
         <label htmlFor="name">
           Name:
@@ -209,18 +212,19 @@ const inputChange = event => {
         <br/>
         <br/>
         
-        <button disabled={buttonDisabled}>Submit Order</button>
+        <button className="submit" disabled={buttonDisabled}>Submit Order</button>
         
         <br/>
         <Link to={"/"}>
         <button>Cancel</button>
         </Link>
-
-        <pre>{JSON.stringify(post, null, 2)}</pre>
         
       </form>
-    </>
-    </header>
+      </div>
+      <pre>{JSON.stringify(post, null, 2)}</pre>
+    </div>
+   
+    
   );
 };
 
